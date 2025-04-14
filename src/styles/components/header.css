@@ -1,11 +1,12 @@
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 0 20px;
-    color: white;
+    padding: 0 15px;
     height: 60px;
-    margin-top: 12px;
+    gap: 20px;
+    margin-top: 15px;
+    
 }
 
 .menu{
@@ -17,12 +18,21 @@ header{
     color: rgb(0, 0, 0);
     padding: 3px ;
     text-decoration: none;
-    margin: 30px 14px ;
-    font-size: 15px ;
+    margin: 30px 5px ;
+    font-size: 16px ;
 
 }
 
-li a:hover{
+.logo{
+    width: 108.27px;
+    height: 28.39px;
+}
+
+.lista-menu-principal{
+    list-style: none;
+}
+
+.lista-menu-principal a:hover{
     color: rgb(199, 5, 5);
     transition: all 0.3s ease-in-out;
 }
@@ -34,11 +44,12 @@ li a:hover{
 
 .dot {
     display: inline-block;
-    width: 6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     background: #ccc;
     border-radius: 50%;
-    margin-left: 5px;
+    margin-left: 2px;
+    align-items: center;
 }
   
 .dot.active {
@@ -47,14 +58,15 @@ li a:hover{
 }
 
 
-.btn-header{
+.btn-header a{
     background-color: rgb(245, 99, 14);
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
+    text-decoration: none;
 }
 .bi-arrow-right{
     margin-left: 5px;
