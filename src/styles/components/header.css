@@ -187,6 +187,7 @@ header{
 }
 
 @media(max-width: 991px) {
+
     .menu-icon{
         display: none;
     }
@@ -197,18 +198,71 @@ header{
         display: none;
     }
     .navbar-mobile{
-        display: flex;
+        display: block;
         width: 100%;
+        margin:0px;
+        padding: 0px;
     }
-    .container-navbar-mobile a{
-        color: white;
-        font-size: 28px;
-        content: "Print King";
-    }
-    .container-navbar-mobile{
+    .container-navbar-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 1rem;
         background: linear-gradient(-86deg, #dd1d25 0%, #fb9737 100%);
-    }
-    .btn-navbar-mobile{
         color: white;
     }
-}
+      
+    .container-navbar-mobile .navbar-brand,
+    .container-navbar-mobile .navbar-toggler {
+        color: white;
+    }
+      
+
+    .lista-navbar-mobile {
+        background: transparent !important;
+       color: white;
+    }
+    
+    .nav-link.dropdown-toggle::after {
+        display: none;
+    }
+  
+    .nav-item {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    } 
+  
+  
+ 
+    .submenu-mobile li {
+        background-color: #f0f0f0; 
+        border-bottom: 1px solid #ffffff; 
+        list-style: none; 
+        padding: 8px 12px;
+    }
+
+    .submenu-mobile {
+        padding-left: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .nav-item .submenu-mobile li a {
+        background-color: #444;
+    }
+    
+
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+    }
+    
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1); 
+    }
+    
+  
+    .toggle-icon {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}   
