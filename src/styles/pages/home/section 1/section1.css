@@ -1,0 +1,22 @@
+.video-icon {
+    display: inline-block;
+    position: absolute;
+    top: 139px;
+    right: 190px;
+}
+.video-icon a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 100%;
+    color: #FF3C00;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    -webkit-animation: hassan 1s linear infinite;
+    animation: hassan 1.5s linear infinite;
+    -webkit-transition: .5s;
+    font-size: 28px;
+    z-index: 1;
+}

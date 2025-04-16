@@ -6,6 +6,7 @@
     <!-- Logo Icon -->
     <link rel="icon" href="/public/imgLogo/logo-icon.png" type="image/png">
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous" defer></script>
     
@@ -13,15 +14,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/src/styles/components/header.css">  <!--Header -->
     <link rel="stylesheet" href="/src/styles/pages/home/main.css">  <!--Main --> 
+    <link rel="stylesheet" href="/src/styles/pages/home/section 1/section1.css">
     <link rel="stylesheet" href="/src/styles/components/footer.css">  <!--Footer -->
-
-   
-    
 
     <title>Print King</title>
 </head>
 <body>
     <header>
+      <div class="header-desktop">
         <div class="menu-icon">
             <img src="/public/imgLogo/logo.png" alt="Logo-Print King" class="logo">
         </div>
@@ -83,24 +83,25 @@
         <div class="btn-header">
             <a href="#" class="btn">Contact Us  →</a>
         </div>
+      </div>
+        <!-- NAVBAR HAMBURGUER -->
         <nav class="navbar-mobile navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-navbar-mobile container-fluid" style="background: linear-gradient(-86deg, #dd1d25 0%, #fb9737 100%);">
-              <a class="navbar-brand text-white" href="#">Print King</a>
+              <a class="navTitulo navbar-brand text-white " href="#">Print King</a>
               <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="icon-menu">&#9776;</span>
+                <span class="icon-close d-none">X</span>
               </button>
             </div>
-          
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav w-100">
-          
                 <!-- HOME -->
-                <li class="nav-item dropdown border-bottom">
-                  <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" data-bs-toggle="collapse" data-bs-target="#submenuHome" aria-expanded="false">
+                <li class="nav-item dropdown border-bottom ">
+                  <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center " href="#" data-bs-toggle="collapse" data-bs-target="#submenuHome" aria-expanded="false">
                     Home <span class="toggle-icon">+</span>
                   </a>
-                  <ul id="submenuHome" class="submenu-mobile collapse bg-light border border-dark-subtle ps-3">
+                  <ul id="submenuHome" class="submenu-mobile collapse">
                     <li><a class="dropdown-item" href="#">Print Shope Home</a></li>
                     <li><a class="dropdown-item" href="#">Print Shope Company</a></li>
                     <li><a class="dropdown-item" href="#">Print Shope Creative</a></li>
@@ -118,7 +119,7 @@
                   <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" data-bs-toggle="collapse" data-bs-target="#submenuPages" aria-expanded="false">
                     Pages <span class="toggle-icon">+</span>
                   </a>
-                  <ul id="submenuPages" class="submenu-mobile collapse bg-light border border-dark-subtle ps-3">
+                  <ul id="submenuPages" class="submenu-mobile collapse">
                     <li><a class="dropdown-item" href="#">About Us</a></li>
                     <li><a class="dropdown-item" href="#">Pricing</a></li>
                     <li><a class="dropdown-item" href="#">Our Team</a></li>
@@ -132,7 +133,7 @@
                   <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" data-bs-toggle="collapse" data-bs-target="#submenuServices" aria-expanded="false">
                     Services <span class="toggle-icon">+</span>
                   </a>
-                  <ul id="submenuServices" class="submenu-mobile collapse bg-light border border-dark-subtle ps-3">
+                  <ul id="submenuServices" class="submenu-mobile collapse">
                     <li><a class="dropdown-item" href="#">Our Service</a></li>
                     <li><a class="dropdown-item" href="#">Service Details</a></li>
                   </ul>
@@ -143,7 +144,7 @@
                   <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" data-bs-toggle="collapse" data-bs-target="#submenuProject" aria-expanded="false">
                     Project <span class="toggle-icon">+</span>
                   </a>
-                  <ul id="submenuProject" class="submenu-mobile collapse bg-light border border-dark-subtle ps-3">
+                  <ul id="submenuProject" class="submenu-mobile collapse">
                     <li><a class="dropdown-item" href="#">Portfolio</a></li>
                     <li><a class="dropdown-item" href="#">Portfolio Details</a></li>
                   </ul>
@@ -154,7 +155,7 @@
                   <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" data-bs-toggle="collapse" data-bs-target="#submenuShop" aria-expanded="false">
                     Shop <span class="toggle-icon">+</span>
                   </a>
-                  <ul id="submenuShop" class="submenu-mobile collapse bg-light border border-dark-subtle ps-3">
+                  <ul id="submenuShop" class="submenu-mobile collapse">
                     <li><a class="dropdown-item" href="#">Shop One</a></li>
                     <li><a class="dropdown-item" href="#">Shop Two</a></li>
                     <li><a class="dropdown-item" href="#">Shop Details</a></li>
@@ -166,7 +167,7 @@
                   <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" data-bs-toggle="collapse" data-bs-target="#submenuBlog" aria-expanded="false">
                     Blog <span class="toggle-icon">+</span>
                   </a>
-                  <ul id="submenuBlog" class="submenu-mobile collapse bg-light border border-dark-subtle ps-3">
+                  <ul id="submenuBlog" class="submenu-mobile collapse ">
                     <li><a class="dropdown-item" href="#">Blog List</a></li>
                     <li><a class="dropdown-item" href="#">Blog Grid</a></li>
                     <li><a class="dropdown-item" href="#">Blog Details</a></li>
@@ -181,10 +182,34 @@
               </ul>
             </div>
           </nav>
-          
-          
     </header>
-    <script src="/src/js/header/header.js"></script>
+
+    <section class="section-1">
+        <div class="container-1">
+          <div class="sessao-1">
+            <div class="escrita-sessao-1">
+              <h5>DIGITAL PRITING SERVICES</h5>
+              <h1>Product Aswesome</h1>
+              <h1>Priting</h1>
+              <h1>For Your Business</h1>
+              <p> Fast print, flyer, and pamphlet printing organization pleased with past Printing for what’s to come. What’s more, we do printing.</p>
+            </div>
+            <div class="btn-sessao-1">
+              <a href="#" class="btn">Contact Us  →</a>
+            </div>
+          </div>
+          <div class="sessao-2">
+            <img src="/public/img1Section/hero1.png" alt="Homem olhando o cumputador, primeira section">
+            <div class="video-icon">
+              <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg">
+                <i class="bi bi-play-fill"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+    </section>
+     <script src="/src/js/header/header.js"></script> <!--HEADER -->
 </body>
 
 </html>
