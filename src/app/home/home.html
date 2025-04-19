@@ -8,14 +8,20 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous" defer></script>
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     
     <!-- CSS -->
+     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
      <link rel="stylesheet" href="/src/styles/reset.css">
-    <link rel="stylesheet" href="/src/styles/components/header.css">  <!--Header -->
-    <link rel="stylesheet" href="/src/styles/pages/home/main.css">  <!--Main --> 
+    <link rel="stylesheet" href="/src/styles/components/header.css">  
+    <link rel="stylesheet" href="/src/styles/pages/home/main.css">  
     <link rel="stylesheet" href="/src/styles/pages/home/section 1/section1.css">
-    <link rel="stylesheet" href="/src/styles/components/footer.css">  <!--Footer -->
+    <link rel="stylesheet" href="/src/styles/pages/home/section 2/section2.css">
+    <link rel="stylesheet" href="/src/styles/pages/home/section 3/section3.css">
+    <link rel="stylesheet" href="/src/styles/pages/home/section 4/section4.css">
+    <link rel="stylesheet" href="/src/styles/components/footer.css">  
+    <link rel="stylesheet" href="/src/styles/animacao/animacao.css">
 
     <title>Print King</title>
 </head>
@@ -87,7 +93,7 @@
       </div>
         <!-- NAVBAR HAMBURGUER -->
         <nav class="navbar-mobile navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-navbar-mobile container-fluid" style="background: linear-gradient(-86deg, #dd1d25 0%, #fb9737 100%);">
+            <div class="container-navbar-mobile container-fluid" >
               <a class="navTitulo navbar-brand text-white " href="#">Print King</a>
               <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -185,32 +191,345 @@
           </nav>
     </header>
 
-    <section class="section-1">
-        <div class="container-1">
-          <div class="sessao-1">
-            <div class="escrita-sessao-1">
-              <h5>DIGITAL PRITING SERVICES</h5>
-              <h1>Product Aswesome</h1>
-              <h1>Priting</h1>
-              <h1>For Your Business</h1>
-              <p> Fast print, flyer, and pamphlet printing organization pleased with past Printing for what’s to come. What’s more, we do printing.</p>
-            </div>
-            <div class="btn-sessao-1">
-              <a href="#" class="btn">Contact Us  →</a>
-            </div>
-          </div>
-          <div class="sessao-2">
-            <img src="/public/img1Section/hero1.png" alt="Homem olhando o cumputador, primeira section">
-            <div class="video-icon">
-              <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg">
-                <i class="bi bi-play-fill"></i>
-              </a>
-            </div>
-          </div>
 
+    <section class="hero-section d-flex align-items-center">
+        <div class="container">
+          <div class="row hero-bg align-items-center">
+            <div class="col-lg-6 col-md-6">
+              <div class="hero-content">
+                <h5> DIGITAL PRINTING SERVICES </h5>
+                <h1> Product <span>Awesome</span> </h1>
+                <h1> Printing </h1>
+                <h1> For Your Business </h1>
+                <p> Fast print, flyer, and pamphlet printing organization pleased with past Printing for what’s to come. What’s more, we do printing.</p>
+              </div>
+              <div class="hero-button">
+                <a href="#"> Contact Us <i class="bi bi-arrow-right"></i> </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 ">
+              <div class="hero-thumb">
+                <img src="/public/img1Section/hero1.png" alt="">
+              
+                <div class="video-icon">
+                  <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="bi bi-play-fill"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="hero-shape">
+              <div class="hero-shape-thumb bounce-animate">
+                <img src="/public/footer/ball2(1).png" alt="">
+              </div>
+              <div class="hero-shape-thumb2 dance">
+                <img src="/public/animacaoImg/ball1.png" alt="">
+              </div>
+              <div class="hero-shape-thumb3 bounce-animate2">
+                <img src="/public/animacaoImg/cross1.png" alt="">
+              </div>
+              <div class="hero-shape-thumb4 bounce-animate3">
+                <img src="/public/animacaoImg/cross2.png" alt="">
+              </div>
+              <div class="hero-shape-thumb5 bounce-animate4">
+                <img src="/public/animacaoImg/dots.png" alt="">
+              </div>
+            </div>
+          </div>
         </div>
     </section>
-     <script src="/src/js/header/header.js"></script> <!--HEADER -->
+
+    <section class="service-section">
+        <div class="container">
+          <div class="row service-bg">
+            <div class="col-lg-12">
+              <div class="print_shop-section-title text-center hero-content">
+                <h5> WE ARE Professional </h5>
+                <h1> Awesome Service For Printing</h1>
+                <h1> <span> And Design </span></h1>
+                <p>Professionally pursue economically sound services resource sucking potentialities. Authoritat morph with premier catalysts for change awesome services for you. </p>
+              </div>
+            </div>
+            <!-- service shape -->
+            <div class="service-shape bounce-animate3">
+              <img src="assets/images/slider/cross2.png" alt="">
+            </div>
+            <div class="service-shape2 dance2">
+              <img src="assets/images/slider/ball1.png" alt="">
+            </div>
+            <div class="service-shape3 bounce-animate">
+              <img src="assets/images/slider/cross1.png" alt="">
+            </div>
+            <div class="service-shape4 bounce-animate">
+              <img src="assets/images/resource/ball1.png" alt="">
+            </div>
+            <div class="service-shape5 bounce-animate4">
+              <img src="assets/images/resource/ball2.png" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="single-service-box">
+                <!-- service icon -->
+                <div class="service-icon">
+                  <img src="/public/img2Section/service-icon1.png" alt="">
+                </div>
+                <!-- service content -->
+                <div class="service-content">
+                  <h3>Design &amp; Branding</h3>
+                  <p>Professionally pursue economically sou services resource sucking pote services for your business. </p>
+                </div>
+                <!-- service button -->
+                <div class="service-button">
+                  <a href="service-details.html"> Read More <i class="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="single-service-box">
+                <!-- service icon -->
+                <div class="service-icon">
+                  <img src="/public/img2Section/service-icon2.png" alt="">
+                </div>
+                <!-- service content -->
+                <div class="service-content">
+                  <h3>Printing Services</h3>
+                  <p>Professionally pursue economically sou services resource sucking pote services for your business. </p>
+                </div>
+                <!-- service button -->
+                <div class="service-button">
+                  <a href="service-details.html"> Read More <i class="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="single-service-box">
+                <!-- service icon -->
+                <div class="service-icon">
+                  <img src="/public/img2Section/service-icon3.png" alt="">
+                </div>
+                <!-- service content -->
+                <div class="service-content">
+                  <h3>3D Printing Service</h3>
+                  <p>Professionally pursue economically sou services resource sucking pote services for your business. </p>
+                </div>
+                <!-- service button -->
+                <div class="service-button">
+                  <a href="service-details.html"> Read More <i class="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="single-service-box">
+                <!-- service icon -->
+                <div class="service-icon">
+                  <img src="/public/img2Section/service-icon4.png" alt="">
+                </div>
+                <!-- service content -->
+                <div class="service-content">
+                  <h3>Printing Services</h3>
+                  <p>Professionally pursue economically sou services resource sucking pote services for your business. </p>
+                </div>
+                <!-- service button -->
+                <div class="service-button">
+                  <a href="service-details.html"> Read More <i class="bi bi-arrow-right"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+              <div class="row align-items-center abouts">
+                <div class="col-lg-6 col-md-6">
+                  <div class="thumb-items">
+                    <img src="/public/img3Section/about1.png" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="thumb-items">
+                    <img src="/public/img3Section/about-2.png" alt="">
+                  </div>
+                  <div class="thumb-items">
+                    <img src="/public/img3Section/about-3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 pl-40 pr-0">
+              <div class="print_shop-section-title hero-content">
+                <h5> ABOUT PRINTING SERVICES </h5>
+                <h1> Produce Stuning <span>Printing</span></h1>
+                <h1> For Your Business </h1>
+                <p> Fast print, flyer, and pamphlet printing organization pleased with past Printing for what’s to come. What’s more, we do printing. </p>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="about-print-items">
+                    <div class="about-icon">
+                      <img src="/public/img3Section/about-icon1.png" alt="">
+                    </div>
+                    <div class="about-item-content">
+                      <h4> Banners Printing </h4>
+                      <p> services resource potentialities awesome services you. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="about-print-items">
+                    <div class="about-icon">
+                      <img src="/public/img3Section/about-icon2.png" alt="">
+                    </div>
+                    <div class="about-item-content">
+                      <h4> Business Card Design </h4>
+                      <p> services resource potentialities awesome services you. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- about check -->
+              <div class="about-check">
+                <p><i class="bi bi-check-lg"></i> Large paper &amp; stock selection &amp; Unique Print </p>
+              </div>
+              <!-- about check -->
+              <div class="about-check">
+                <p><i class="bi bi-check-lg"></i> Printing programs tailored to your company needs </p>
+              </div>
+              <div class="print-shop-artist">
+                <!-- Artist name -->
+                <div class="artist-name">
+                  <h5>Md. Al- Amin Hossain</h5>
+                </div>
+                <div class="artist-categories">
+                  <p>Senior Artist Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer-section"> 
+      <div class="container">
+        <div class="row footer-bg">
+          <div class="col-lg-3 col-md-6 pl-20 pr-40">
+            <div class="widgets-company-info">
+              <!-- print logo -->
+              <div class="print-logo">
+                <a class="logo_img" href="index.html" title="techno">
+                  <img src="/public/imgLogo/logo.png" alt="">
+                </a>
+              </div>
+              <!-- footer desc -->
+              <div class="company-desc-info">
+                <p>Curabitur vennatis finibus nte et magna eu ve Aliuam puus seim rhoncus bibendum,</p>
+              </div>
+              <!-- company social info -->
+              <div class="company-social-info">
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>	
+                </ul>
+              </div>
+            </div>					
+          </div>
+          <div class="col-lg-3 col-md-6 pl-40">
+            <div class="widget-nav-menu">
+              <!-- widget title -->
+              <h4 class="widget-title"> Get in touch </h4>
+              <div class="menu-quick-link-content">
+                <ul class="footer-widget-list">
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> Shoping</a></li>
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> product</a></li>
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> Services</a></li>
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> About Us</a></li>
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="widget-nav-menu">
+              <!-- widget title -->
+              <h4 class="widget-title"> Useful Links </h4>
+              <div class="menu-quick-link-content">
+                <ul class="footer-widget-list">
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> Useful Links</a></li>
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> 3d Printing</a></li>
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> Printing &amp; Design</a></li>
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> Upset Printing</a></li>
+                  <li><a href="#"> <i class="bi bi-arrow-right"></i> T-Shart printing</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="menu-quick-link-contact">
+              <!-- widget title -->
+              <h4 class="widget-title"> Contact Us </h4>
+              <!-- company contact info -->
+              <div class="company-contact-info">
+                <p> <i class="bi bi-telephone"></i> Phone: 600.123.4567 </p>
+                <p> <i class="bi bi-envelope-fill"></i> Email: www.@example.com </p>
+                <p> <i class="bi bi-geo-alt-fill"></i> A26BT5 Building, SilverC Street, London, England. </p>
+              </div>
+            </div>
+          </div>
+          <!-- footer shape -->
+          <div class="footer-shape bounce-animate">
+            <img src="/public/animacaoImg/ball2(1).png" alt="">
+          </div>
+          <div class="footer-shape2 bounce-animate2">
+            <img src="/public/animacaoImg/cross1.png" alt="">
+          </div>
+          <div class="footer-shape3 bounce-animate3">
+            <img src="/public/animacaoImg/cross1.png" alt="">
+          </div>
+          <div class="footer-shape4 bounce-animate4">
+            <img src="/public/animacaoImg/ball2(1).png" alt="">
+          </div>
+          <div class="footer-shape5 bounce-animate5">
+            <img src="/public/animacaoImg/ball3.png" alt="">
+          </div>
+          <div class="footer-shape6 bounce-animate2">
+            <img src="/public/animacaoImg/cross2.png" alt="">
+          </div>
+          <div class="footer-shape7 bounce-animate2">
+            <img src="/public/animacaoImg/cross1.png" alt="">
+          </div>
+          <div class="footer-shape8 bounce-animate2">
+            <img src="/public/animacaoImg/ball2(1).png" alt="">
+          </div>
+        </div>
+        <div class="row footer-bottom-bg">
+          <div class="col-lg-6 col-md-6 pl-0">
+            <div class="footer-bottom-content-copy">
+              <p> Copyright 2024 @ Dream IT. All rights reserved.  </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 pr-0">
+            <div class="footer-bottom-menu text-right">
+              <ul>
+                <li>Privacy</li>
+                <li>Teams</li>
+                <li>Purchase</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+     <script src="/src/js/header/header.js"></script> 
 </body>
 
 </html>

@@ -1,0 +1,270 @@
+.footer-section {
+    padding: 120px 0 0;
+    background: #F6F7F9;
+}
+.row.footer-bg {
+    position: relative;
+}
+.company-desc-info p {
+    display: inline-block;
+    padding: 60px 0 9px;
+}
+/*company social info*/
+.company-social-info ul li {
+    display: inline-block;
+    list-style: none;
+}
+.company-social-info ul li a {
+    display: inline-block;
+    margin: 9px 3px 0;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    color: #DD1D25;
+    background: #fff;
+    text-align: center;
+    border-radius: 30px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.company-social-info ul li a:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-image: linear-gradient(-86deg, #dd1d25 0%, #fb9737 100%);
+    border-radius: 30px;
+    transition: .5s;
+    z-index: -1;
+}
+.company-social-info ul li a:hover:before {
+    width: 100%;
+    left: 0;
+}
+.company-social-info ul li a:hover {
+    color: #fff;
+}
+
+h4.widget-title {
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 0 60px;
+    font-weight: 700;
+}
+.sidebar-info-contents .widget-title h3 {
+    padding: 20px 0 16px;
+    font-weight: 500;
+}
+.widget-title h3 {
+    font-size: 22px;
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 3px;
+    padding: 0 0 16px;
+}
+
+
+.company-contact-info p {
+    padding: 14px 0 0px;
+}
+.company-contact-info p i {
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    line-height: 30px;
+    text-align: center;
+    background-image: linear-gradient(-86deg, #dd1d25 0%, #fb9737 100%);
+    display: inline-block;
+    border-radius: 30px;
+    color: #fff;
+    margin-right: 14px;
+    transition: .5s;
+
+}
+
+
+
+
+
+ul.footer-widget-list li {
+    display: block;
+    list-style: none;
+}
+ul.footer-widget-list li a {
+    transition: .5s;
+    padding: 8px 0 4px;
+    display: block;
+    color: #666;
+}
+ul.footer-widget-list li a i {
+    padding-right: 8px;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+}
+ul.footer-widget-list li:hover a {
+    color: #dd1d26;
+}
+
+
+/*footer bottom area*/
+.row.footer-bottom-bg {
+    border-top: 1px solid #F88935;
+    margin: 75px 0 0;
+    padding-top: 32px;
+}
+
+.footer-bottom-content-copy p {
+    font-size: 14px;
+}
+
+.footer-bottom-menu ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    padding-left: 27px;
+}
+
+/*footer shape*/
+.footer-shape {
+    position: absolute;
+    bottom: -10px;
+    left: -12%;
+}
+
+.footer-shape2 {
+    position: absolute;
+    left: -9%;
+    top: -6%;
+}
+
+.footer-shape3 {
+    position: absolute;
+    right: -20%;
+    bottom: -10%;
+}
+
+.footer-shape4 {
+    position: absolute;
+    left: 42%;
+    top: 45%;
+}
+
+.footer-shape5 {
+    position: absolute;
+    left: 46%;
+    bottom: -30%;
+}
+
+.footer-shape6 {
+    position: absolute;
+    right: 30%;
+    bottom: -20%;
+    text-align: right;
+}
+
+.footer-shape7 {
+    position: absolute;
+    right: -6%;
+    bottom: -20%;
+    text-align: right;
+}
+
+.footer-shape8 {
+    position: absolute;
+    right: -6%;
+    top: 18%;
+    text-align: right;
+}
+
+
+.bounce-animate {
+    animation-name: float-bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear; }
+.bounce-animate2 {
+    animation-name: float-bob2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob2;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob2;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob2;
+    -o-animation-duration: 3s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear; }
+  .bounce-animate3 {
+    animation-name: float-bob3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob3;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob3;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob3;
+    -o-animation-duration: 3s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear; }
+  .bounce-animate4 {
+    animation-name: float-bob4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob4;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob4;
+    -ms-animation-duration: 5s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob4;
+    -o-animation-duration: 5s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear; }
+   .bounce-animate5 {
+    animation-name: float-bob5;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob5;
+    -moz-animation-duration: 6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob5;
+    -ms-animation-duration: 6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob5;
+    -o-animation-duration: 6s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear; }

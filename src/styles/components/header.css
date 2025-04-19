@@ -1,40 +1,50 @@
 header{
-    width: 100%;
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+
 }
 .header-desktop{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: start;
-    height: 220px;
-    padding: 0 15px;
-    gap: 20px;
-    margin-top: 48px;
+    width: 100%;
+    height: 120px;
+
+    gap: 45px;
+    margin-top: 50px;
+
 }
 
 .menu{
     display: flex;
     justify-content: center;
+    
 }
 
 .menu a{
     color: rgb(0, 0, 0);
-    padding: 2px ;
+    padding: 3px ;
     text-decoration: none;
     margin: 30px 4px ;
-    font-size: 17px ;
+    font-size: 19px ;
     align-items: center;
 
 }
 
 .logo{
-    width: 128px;
-    height: 33px;
-    margin-top: -5px;
+    width: 140px;
+    height: auto;
+    margin-top: -6px;
+    margin-left: 1px;
 }
 
 
 .lista-menu-principal{
     list-style: none;
+    
 }
 
 .lista-menu-principal a {
@@ -66,9 +76,9 @@ header{
 }
 
 .btn-header a{
-    font-size: 16px;
+    font-size: 17px;
     padding: 10px 15px;
-    font-weight: 500;
+    font-weight: 560px;
     border-radius: 4px;
     color: #fff;
     background-image: linear-gradient(-86deg, #dd1d25 0%, #fb9737 100%);
@@ -123,7 +133,19 @@ header{
 
 .lista-menu-principal {
     position: relative;
+} 
+
+
+.print_shop_nav_manu.sticky .logo_img {
+    display: none;
 }
+.main_sticky {
+    display: none;
+}
+.print_shop_nav_manu.sticky .main_sticky {
+    display: inherit;
+}
+
 .submenu {
     position: absolute;
     top: calc(100% + 30px);
@@ -206,7 +228,9 @@ header{
         padding: 20px 50px;
     }
     .nav-link{
-        font-family: 18px;
+        font-family: 19px;
+        color: black;
+        height: 65px;
     }
    
 
@@ -220,6 +244,7 @@ header{
     .container-navbar-mobile {
         display: flex;
         justify-content: space-between;
+        height: 80px;
         align-items: center;
         padding: 0.5rem 1rem;
         background: linear-gradient(-86deg, #dd1d25 0%, #fb9737 100%);
@@ -247,7 +272,7 @@ header{
     }
 
     .navTitulo{
-        font-size: 28px;
+        font-size: 38px;
         font-weight: 600;
         left: 10px;
         top: 18px;
@@ -269,7 +294,11 @@ header{
 
     .submenu-mobile li  {
         background-color: #44444444;
-        padding: 17px 80px;
+        padding: 12px 80px;
+        height: 69px;
+        color: black;
+        font-size: 17px;
+        padding-top: 24px;
     }
 
 
@@ -301,3 +330,14 @@ header{
       }
 
 }
+@media (min-width: 1200px) and (max-width: 1600px) {
+    a.logo_img img {
+        width: 170px !important;
+    }
+}
+    @media (min-width: 1200px) and (max-width: 1600px) {
+        .print_shop_menu > ul > li > a {
+            margin: 30px 14px !important;
+            font-size: 15px !important;
+        }
+    }    

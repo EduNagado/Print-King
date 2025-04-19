@@ -1,0 +1,111 @@
+.about-section {
+    padding: 0px 0 100px;
+}
+.about-section.upp {
+    padding: 70px 0 100px;
+}
+.row.abouts {
+    margin: 0 25px 0 -70px;
+}
+/*about thumbs*/
+.thumb-items {
+    margin-bottom: 25px;
+}
+.thumb-items img {
+    width: 100%;
+}
+/*about items */
+.about-print-items {
+    padding: 0px 0 21px;
+}
+/*about icon*/
+.about-icon {
+    float: left;
+    margin-right: 19px;
+}
+/*about content*/
+.about-item-content {
+    overflow: hidden;
+}
+.about-item-content h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.about-item-content p {
+    font-size: 15px;
+    padding: 10px 0 0;
+    line-height: 24px;
+}
+
+/*about check*/
+.about-check p {
+    color: #000;
+    padding-bottom: 6px;
+}
+.about-check p i {
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 20px 0px 20px 20px;
+    text-align: center;
+    background-image: linear-gradient(-86deg, #dd1d25 0%, #fb9737 100%);
+    color: #fff;
+    display: inline-block;
+    margin-right: 11px;
+}
+/*print shop artist*/
+.print-shop-artist {
+    border-top: 1px solid #e8e8e8;
+    padding: 14px 0 0;
+    margin-top: 24px;
+}
+/*artist name*/
+.artist-name {
+    display: inline-block;
+    padding-right: 35px;
+}
+.artist-name h5 {
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+}
+.artist-name h5:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -3px;
+    width: 150px;
+    height: 1px;
+    background-image: linear-gradient(-45deg, #dd1d25 0%, #fb9737 100%);
+}
+/*artist categories*/
+.artist-categories p {
+    font-size: 15px;
+}
+.artist-categories {
+    display: inline-block;
+}
+
+/* About style two
+======================================================*/
+
+.about-serction.style-two {
+    background: #F6F7F9;
+    padding: 120px 0 120px;
+}
+
+.about-thumb {
+    margin: 0 0 0 -140px;
+    position: relative;
+    z-index: 1;
+}
+
+.about-shape {
+    position: absolute;
+    bottom: 12px;
+    left: 238px;
+    z-index: -1;
+}

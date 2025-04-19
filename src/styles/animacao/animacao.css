@@ -1,0 +1,178 @@
+/* Animação 1 */
+
+.hero-content h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #dd1d26;
+    padding: 0 0 7px 11px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.hero-content h5:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: -4px;
+    width: 30px;
+    height: 25px;
+    background: #dd1d26;
+    opacity: .2;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+
+/* Texto personlaizado  */
+
+.hero-content h1 {
+    font-size: 55px;
+    line-height: 57px;
+}
+.hero-content h1 span {
+    background: linear-gradient( to right, #fb9737, 50%, #dd1d25 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+/* Cards Service */
+
+.single-service-box {
+    padding: 40px 20px 33px;
+    filter: drop-shadow(0px 10px 20px rgba(221,29,38,0.07));
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.single-service-box:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-45deg, #dd1d25 0%, #fb9737 100%);
+    transform: scale(.2, 1);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 5px;
+}
+.single-service-box:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 74px;
+    bottom: 0;
+    margin: auto;
+    width: 218px;
+    height: 218px;
+    background: #fff;
+    border-radius: 100%;
+    opacity: 0.102;
+    animation: dance3 2s alternate infinite;
+}
+
+
+.service-icon {
+    position: relative;
+}
+.service-icon:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    left: 60px;
+    margin: auto;
+    top: -2px;
+    width: 51px;
+    height: 51px;
+    line-height: 51px;
+    background: #dd1d26;
+    border-radius: 50%;
+    opacity: .102;
+}
+.service-icon img {
+    transition: .5s;
+}
+
+.service-content h3 {
+    font-size: 24px;
+    padding: 23px 0 21px;
+    transition: .5s;
+}
+.service-content p {
+    transition: .5s;
+}
+
+
+.service-button a {
+    font-weight: 500;
+    color: #dd1d26;
+    margin: 4px 0 0;
+    display: inline-block;
+}
+.service-button a i {
+    padding-left: 6px;
+    position: relative;
+    top: 2px;
+}
+
+/*service all hover*/
+.single-service-box:hover .service-icon:before {
+    opacity: .400;
+    background: #fff;
+}
+.single-service-box:hover .service-icon img {
+    filter: brightness(0) invert(1);
+}
+.single-service-box:hover .service-content h3 {
+    color: #fff;
+}
+.single-service-box:hover .service-content p {
+    color: #fff;
+}
+.single-service-box:hover .service-button a {
+    color: #fff;
+}
+
+.single-service-box:hover:before{
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+/*service shape*/
+.service-shape {
+    position: absolute;
+    right: 136px;
+    top: 80px;
+    text-align: right;
+}
+.service-shape2 {
+    position: absolute;
+    text-align: right;
+    right: -130px;
+}
+.service-shape3 {
+    position: absolute;
+    text-align: right;
+    right: -145px;
+    bottom: 45px;
+}
+.service-shape4 {
+    position: absolute;
+    top: -24px;
+    left: 212px;
+}
+.service-shape5 {
+    position: absolute;
+    top: 105px;
+    left: -100px;
+}
+

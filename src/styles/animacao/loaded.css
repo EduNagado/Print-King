@@ -1,0 +1,24 @@
+.loader-wrapper .loder-section.left-section {
+    left: 0;
+    transition: 1s 1.4s ease;
+  }
+  .loader-wrapper .loder-section.right-section {
+    right: 0;
+    transition: 1s 1.4s ease;
+  }
+  
+  /*/ When page loaded /*/
+  .loaded .loder-section.left-section {
+    left: -100%;
+  }
+  .loaded .loder-section.right-section {
+    right: -100%;
+  }
+  .loaded .loader-wrapper {
+    visibility: hidden;
+  }
+  .loaded .loader {
+    top: -100%;
+    opacity: 0;
+  }
+  

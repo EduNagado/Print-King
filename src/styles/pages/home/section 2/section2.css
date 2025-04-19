@@ -1,0 +1,106 @@
+
+
+/*hero contetn*/
+.hero2 .hero-content h1 {
+    font-size: 65px;
+    line-height: 59px;
+    color: #fff;
+}
+
+.hero2 .hero-content p {
+    padding: 35px 0 30px;
+    width: 49%;
+    color: #fff;
+}
+
+.hero2 .hero-content h5 {
+    padding: 0 0 27px 11px;
+}
+
+.hero2 .hero-content h5:after {
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 297px;
+    background: #fff;
+    border-radius: 50%;
+    top: -31px;
+    left: -40px;
+    opacity: .5;
+    z-index: -1;
+}
+
+
+
+/*hero button*/
+.hero2 .hero-button {
+    display: inline-block;
+    padding-right: 27px;
+}
+.hero2 .hero-button a {
+    padding: 13px 38px;
+    font-weight: 500;
+    border: 0;
+}
+
+/*hero shape*/
+.hero2 .hero-shape-thumb {
+    top: -37%;
+}
+.hero2 .hero-shape-thumb2 {
+    left: 62%;
+    top: 15%;
+}
+.hero2 .hero-shape-thumb3 {
+    top: -33%;
+    left: 72%;
+}
+.hero2 .hero-shape-thumb4 {
+    bottom: -20%;
+}
+.hero2 .hero-shape-thumb5 {
+    position: absolute;
+    left: 17%;
+    bottom: 4%;
+    z-index: -1;
+}
+
+.hero2 .hero-shape-thumb6 {
+    position: absolute;
+    right: -12%;
+    top: -15%;
+    z-index: -1;
+}
+/*shape title*/
+.shape-title {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.shape-title h2 {
+    font-size: 75px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 70px;
+}
+.shape-title h3 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+.service-section {
+    padding: 120px 0 90px;
+}
+
+.row.service-bg {
+    position: relative;
+}
+/*service box*/
+
+
+
