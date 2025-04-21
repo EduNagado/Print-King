@@ -12,7 +12,6 @@ header{
     align-items: start;
     width: 100%;
     height: 120px;
-
     gap: 45px;
     margin-top: 50px;
 
@@ -26,7 +25,7 @@ header{
 
 .menu a{
     color: rgb(0, 0, 0);
-    padding: 3px ;
+    padding: 9px ;
     text-decoration: none;
     margin: 30px 4px ;
     font-size: 19px ;
@@ -34,8 +33,56 @@ header{
 
 }
 
+.sticky {
+  left: 0;
+  margin: auto;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  background: #000 !important;
+  transition: 0.5s;
+  z-index: 9;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.sticky  a{
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    text-decoration: none;
+    margin: 30px 4px ;
+    font-size: 19px ;
+    align-items: center;
+
+}
+
+.header-scroll .dot{
+    width: 7px;
+    height: 7px;
+} 
+
+.img-scroll {
+    display: none;
+}
+
+
+.sticky .img-scroll {
+    display: block;
+}
+
+.sticky .menu-icon {
+    display: none;
+}
+
+
+
+
 .logo{
-    width: 140px;
+    width: 192px;
     height: auto;
     margin-top: -6px;
     margin-left: 1px;
@@ -76,8 +123,8 @@ header{
 }
 
 .btn-header a{
-    font-size: 17px;
-    padding: 10px 15px;
+    font-size: 19px;
+    padding: 15px 32px;
     font-weight: 560px;
     border-radius: 4px;
     color: #fff;

@@ -28,6 +28,8 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
+    font-size: 19px;
+    text-decoration: none;
 }
 .hero-button a:before {
     position: absolute;

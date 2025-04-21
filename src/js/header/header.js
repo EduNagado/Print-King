@@ -32,11 +32,28 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isOpen) {
             iconMenu.classList.add('d-none');
             iconClose.classList.remove('d-none');
-            targetMenu.classList.add('show'); // se precisar abrir o menu manualmente
+            targetMenu.classList.add('show'); 
         } else {
             iconMenu.classList.remove('d-none');
             iconClose.classList.add('d-none');
-            targetMenu.classList.remove('show'); // se precisar fechar o menu manualmente
+            targetMenu.classList.remove('show');
         }
     });
+});
+
+
+window.addEventListener('scroll', function () {
+  const header = document.querySelector('.header-desktop');
+  const menuIcon = document.querySelector('.menu-icon');
+  const imgScroll = document.querySelector('.img-scroll');
+
+  if (window.scrollY > 50) {
+    header.classList.add('sticky');
+    menuIcon.style.display = 'none'; // Esconde o menu-icon
+    imgScroll.style.display = 'block'; // Mostra o img-scroll
+  } else {
+    header.classList.remove('sticky');
+    menuIcon.style.display = 'block'; // Mostra o menu-icon
+    imgScroll.style.display = 'none'; // Esconde o img-scroll
+  }
 });
