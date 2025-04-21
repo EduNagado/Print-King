@@ -124,11 +124,16 @@ ul.footer-widget-list li:hover a {
 }
 
 .footer-bottom-menu ul li {
-    display: inline-block;
+    display:  inline-block;
     list-style: none;
     font-size: 14px;
     padding-left: 27px;
+    
 }
+.footer-bottom-menu{
+    margin-left: 230px;
+}
+
 
 /*footer shape*/
 .footer-shape {
@@ -268,3 +273,6 @@ ul.footer-widget-list li:hover a {
     -o-animation-duration: 6s;
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear; }
+
+
+    /* arrumar o midia query do .footer-bottom-menu  */
